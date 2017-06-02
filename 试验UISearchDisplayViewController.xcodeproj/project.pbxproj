@@ -12,6 +12,13 @@
 		F6F716371EA5B28C005D9130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F716351EA5B28C005D9130 /* Main.storyboard */; };
 		F6F716391EA5B28C005D9130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F716381EA5B28C005D9130 /* Assets.xcassets */; };
 		F6F7163C1EA5B28C005D9130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F7163A1EA5B28C005D9130 /* LaunchScreen.storyboard */; };
+		F6F716441EA5FA42005D9130 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F716431EA5FA42005D9130 /* Model.swift */; };
+		F6F716541EA607C7005D9130 /* ChineseToPinyinResource.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F716481EA607C7005D9130 /* ChineseToPinyinResource.m */; };
+		F6F716551EA607C7005D9130 /* HanyuPinyinOutputFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F7164A1EA607C7005D9130 /* HanyuPinyinOutputFormat.m */; };
+		F6F716561EA607C7005D9130 /* NSString+PinYin4Cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F7164C1EA607C7005D9130 /* NSString+PinYin4Cocoa.m */; };
+		F6F716571EA607C7005D9130 /* PinyinFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F7164F1EA607C7005D9130 /* PinyinFormatter.m */; };
+		F6F716581EA607C7005D9130 /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F716511EA607C7005D9130 /* PinyinHelper.m */; };
+		F6F716591EA607C7005D9130 /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = F6F716531EA607C7005D9130 /* unicode_to_hanyu_pinyin.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,20 @@
 		F6F716381EA5B28C005D9130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6F7163B1EA5B28C005D9130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6F7163D1EA5B28C005D9130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F716431EA5FA42005D9130 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F6F716471EA607C7005D9130 /* ChineseToPinyinResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyinResource.h; sourceTree = "<group>"; };
+		F6F716481EA607C7005D9130 /* ChineseToPinyinResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyinResource.m; sourceTree = "<group>"; };
+		F6F716491EA607C7005D9130 /* HanyuPinyinOutputFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanyuPinyinOutputFormat.h; sourceTree = "<group>"; };
+		F6F7164A1EA607C7005D9130 /* HanyuPinyinOutputFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanyuPinyinOutputFormat.m; sourceTree = "<group>"; };
+		F6F7164B1EA607C7005D9130 /* NSString+PinYin4Cocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin4Cocoa.h"; sourceTree = "<group>"; };
+		F6F7164C1EA607C7005D9130 /* NSString+PinYin4Cocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PinYin4Cocoa.m"; sourceTree = "<group>"; };
+		F6F7164D1EA607C7005D9130 /* PinYin4Objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYin4Objc.h; sourceTree = "<group>"; };
+		F6F7164E1EA607C7005D9130 /* PinyinFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinFormatter.h; sourceTree = "<group>"; };
+		F6F7164F1EA607C7005D9130 /* PinyinFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinFormatter.m; sourceTree = "<group>"; };
+		F6F716501EA607C7005D9130 /* PinyinHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinHelper.h; sourceTree = "<group>"; };
+		F6F716511EA607C7005D9130 /* PinyinHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinHelper.m; sourceTree = "<group>"; };
+		F6F716531EA607C7005D9130 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		F6F7165F1EA609D4005D9130 /* 试验UISearchDisplayViewController-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "试验UISearchDisplayViewController-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +75,52 @@
 		F6F716301EA5B28C005D9130 /* 试验UISearchDisplayViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F6F716451EA607C7005D9130 /* PinYin4Objc */,
 				F6F716311EA5B28C005D9130 /* AppDelegate.swift */,
 				F6F716331EA5B28C005D9130 /* ViewController.swift */,
+				F6F716431EA5FA42005D9130 /* Model.swift */,
 				F6F716351EA5B28C005D9130 /* Main.storyboard */,
 				F6F716381EA5B28C005D9130 /* Assets.xcassets */,
 				F6F7163A1EA5B28C005D9130 /* LaunchScreen.storyboard */,
 				F6F7163D1EA5B28C005D9130 /* Info.plist */,
+				F6F7165F1EA609D4005D9130 /* 试验UISearchDisplayViewController-Bridging-Header.h */,
 			);
 			path = "试验UISearchDisplayViewController";
+			sourceTree = "<group>";
+		};
+		F6F716451EA607C7005D9130 /* PinYin4Objc */ = {
+			isa = PBXGroup;
+			children = (
+				F6F716461EA607C7005D9130 /* Classes */,
+				F6F716521EA607C7005D9130 /* Resources */,
+			);
+			path = PinYin4Objc;
+			sourceTree = "<group>";
+		};
+		F6F716461EA607C7005D9130 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F6F716471EA607C7005D9130 /* ChineseToPinyinResource.h */,
+				F6F716481EA607C7005D9130 /* ChineseToPinyinResource.m */,
+				F6F716491EA607C7005D9130 /* HanyuPinyinOutputFormat.h */,
+				F6F7164A1EA607C7005D9130 /* HanyuPinyinOutputFormat.m */,
+				F6F7164B1EA607C7005D9130 /* NSString+PinYin4Cocoa.h */,
+				F6F7164C1EA607C7005D9130 /* NSString+PinYin4Cocoa.m */,
+				F6F7164D1EA607C7005D9130 /* PinYin4Objc.h */,
+				F6F7164E1EA607C7005D9130 /* PinyinFormatter.h */,
+				F6F7164F1EA607C7005D9130 /* PinyinFormatter.m */,
+				F6F716501EA607C7005D9130 /* PinyinHelper.h */,
+				F6F716511EA607C7005D9130 /* PinyinHelper.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F6F716521EA607C7005D9130 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6F716531EA607C7005D9130 /* unicode_to_hanyu_pinyin.txt */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F716591EA607C7005D9130 /* unicode_to_hanyu_pinyin.txt in Resources */,
 				F6F7163C1EA5B28C005D9130 /* LaunchScreen.storyboard in Resources */,
 				F6F716391EA5B28C005D9130 /* Assets.xcassets in Resources */,
 				F6F716371EA5B28C005D9130 /* Main.storyboard in Resources */,
@@ -135,6 +195,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F716581EA607C7005D9130 /* PinyinHelper.m in Sources */,
+				F6F716441EA5FA42005D9130 /* Model.swift in Sources */,
+				F6F716551EA607C7005D9130 /* HanyuPinyinOutputFormat.m in Sources */,
+				F6F716541EA607C7005D9130 /* ChineseToPinyinResource.m in Sources */,
+				F6F716561EA607C7005D9130 /* NSString+PinYin4Cocoa.m in Sources */,
+				F6F716571EA607C7005D9130 /* PinyinFormatter.m in Sources */,
 				F6F716341EA5B28C005D9130 /* ViewController.swift in Sources */,
 				F6F716321EA5B28C005D9130 /* AppDelegate.swift in Sources */,
 			);
@@ -250,9 +316,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "试验UISearchDisplayViewController/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.YXY.--UISearchDisplayViewController";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "试验UISearchDisplayViewController/试验UISearchDisplayViewController-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -261,9 +329,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "试验UISearchDisplayViewController/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.YXY.--UISearchDisplayViewController";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "试验UISearchDisplayViewController/试验UISearchDisplayViewController-Bridging-Header.h";
 			};
 			name = Release;
 		};
